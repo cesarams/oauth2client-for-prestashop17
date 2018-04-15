@@ -67,7 +67,7 @@ class GrantFactory
     {
         // PascalCase the grant. E.g: 'authorization_code' becomes 'AuthorizationCode'
         $class = str_replace(' ', '', ucwords(str_replace(['-', '_'], ' ', $name)));
-        $class = 'League\\OAuth2\\Client\\Grant\\' . $class;
+        $class = 'MichaelKaefer\\OAuth2ClientForPrestashop17\\League\\OAuth2\\Client\\Grant\\' . $class;
 
         $this->checkGrant($class);
 
