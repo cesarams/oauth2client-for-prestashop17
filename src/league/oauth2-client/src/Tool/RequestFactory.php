@@ -14,7 +14,7 @@
 
 namespace MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Tool;
 
-use GuzzleHttp\Psr7\Request;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\GuzzleHttp\Psr7\Request;
 
 /**
  * Used to produce PSR-7 Request instances.

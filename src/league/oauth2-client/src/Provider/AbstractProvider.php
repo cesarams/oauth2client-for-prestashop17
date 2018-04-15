@@ -14,9 +14,9 @@
 
 namespace MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Provider;
 
-use GuzzleHttp\Client as HttpClient;
-use GuzzleHttp\ClientInterface as HttpClientInterface;
-use GuzzleHttp\Exception\BadResponseException;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\GuzzleHttp\Client as HttpClient;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\GuzzleHttp\ClientInterface as HttpClientInterface;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\GuzzleHttp\Exception\BadResponseException;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Grant\AbstractGrant;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Grant\GrantFactory;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Provider\Exception\IdentityProviderException;
@@ -24,8 +24,8 @@ use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Token\AccessT
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Tool\ArrayAccessorTrait;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Tool\QueryBuilderTrait;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Tool\RequestFactory;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\Psr\Http\Message\RequestInterface;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\Psr\Http\Message\ResponseInterface;
 use UnexpectedValueException;
 
 /**

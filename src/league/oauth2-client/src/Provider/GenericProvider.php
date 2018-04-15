@@ -18,7 +18,7 @@ use InvalidArgumentException;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Provider\Exception\IdentityProviderException;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Token\AccessToken;
 use MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Tool\BearerAuthorizationTrait;
-use Psr\Http\Message\ResponseInterface;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\Psr\Http\Message\ResponseInterface;
 
 /**
  * Represents a generic service provider that may be used to interact with any

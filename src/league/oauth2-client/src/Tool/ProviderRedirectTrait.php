@@ -2,11 +2,11 @@
 
 namespace MichaelKaefer\OAuth2ClientForPrestashop17\League\OAuth2\Client\Tool;
 
-use GuzzleHttp\Exception\BadResponseException;
-use GuzzleHttp\Psr7\Uri;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\GuzzleHttp\Exception\BadResponseException;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\GuzzleHttp\Psr7\Uri;
 use InvalidArgumentException;
-use Psr\Http\Message\RequestInterface;
-use Psr\Http\Message\ResponseInterface;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\Psr\Http\Message\RequestInterface;
+use MichaelKaefer\GuzzleHttp6ForPrestashop17\Psr\Http\Message\ResponseInterface;
 
 trait ProviderRedirectTrait
 {
@@ -50,7 +50,7 @@ trait ProviderRedirectTrait
     /**
      * Returns the HTTP client instance.
      *
-     * @return GuzzleHttp\ClientInterface
+     * @return MichaelKaefer\GuzzleHttp6ForPrestashop17\GuzzleHttp\ClientInterface
      */
     abstract public function getHttpClient();
 

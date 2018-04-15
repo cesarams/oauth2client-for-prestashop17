@@ -114,7 +114,7 @@ if (!isset($_GET['code'])) {
 
         // The provider provides a way to get an authenticated API request for
         // the service, using the access token; it returns an object conforming
-        // to Psr\Http\Message\RequestInterface.
+        // to MichaelKaefer\GuzzleHttp6ForPrestashop17\Psr\Http\Message\RequestInterface.
         $request = $provider->getAuthenticatedRequest(
             'GET',
             'http://brentertainment.com/oauth2/lockdin/resource',
