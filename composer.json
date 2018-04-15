@@ -9,7 +9,7 @@
         }
     ],
     "require": {
-        "michaelkaefer/guzzlehttp6-for-prestashop17": "^6.0"
+        "michaelkaefer/guzzlehttp6-for-prestashop17": "^1.0"
     },
     "keywords": [
         "php",
